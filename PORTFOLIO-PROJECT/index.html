@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, section {
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+        section {
+            background-color: #fff;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 8px 0;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PRAJWAL BR</h1>
+        <p>Web Developer and Designer</p>
+        <img src="images/man-6206549_1280.jpg" alt="Prajwal" width="200" height="200">
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I’m Prajwal, a passionate web developer and designer with over 5 years of experience in creating visually appealing and highly functional websites. My expertise spans across front-end and back-end technologies including HTML, CSS, JavaScript, and React. I take pride in delivering high-quality web solutions that enhance user experience and meet client goals. Whether you need a custom-built website or a redesign of an existing platform, I am here to bring your vision to life.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <article>
+            <h3>Project 1: Portfolio Website</h3>
+            <img src="images/website-6692147_1280 (1).png" alt="Portfolio 1" width="300" height="200">
+            <p>A personal portfolio website showcasing my work and skills. Designed to be user-friendly and visually appealing with a focus on clean, modern design.</p>
+        </article>
+        <article>
+            <h3>Project 2: E-commerce Website</h3>
+            <img src="images/ai-generated-8261668_1280.jpg" alt="Portfolio 2" width="300" height="200">
+            <p>An e-commerce platform featuring a responsive design and secure payment system. Includes product management and user account functionalities.</p>
+        </article>
+        <article>
+            <h3>Project 3: Login Platform</h3>
+            <img src="images/internet-1952019_1280.jpg" alt="Portfolio 3" width="300" height="200">
+            <p>A login platform with secure authentication and user management features. Designed to be intuitive and easy to use for managing user access and profiles.</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li><i class="fa-brands fa-html5"></i> HTML</li>
+            <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li><i class="fa-brands fa-react"></i> React</li>
+            <li><i class="fa-brands fa-node"></i> Node.js</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please feel free to reach out through the form below. I am available for freelance work and would be happy to discuss your project needs.</p>
+        
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+</body>
+</html>
